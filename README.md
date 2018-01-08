@@ -10,7 +10,7 @@ In order to test it, make sure that you have NodeJS installed on your computer. 
 
 You can build the project for production by simply running the `npm run build` command. Make sure that you have set the __homepage__ correctly in the _package.json_ file.
 
-_Note: You should have a personal access token generated to able to access the GitHub API._
+__Note: You should have a personal access token generated to able to access the GitHub API.__
 
 Inside `/src/index.js`, you should replace `YOUR_TOKEN` with your actual token.
 
@@ -39,4 +39,4 @@ __Software Stack:__ ReactJS, Redux, Apollo Client, SASS
 - Infinite scrolling by using `fetchMore` feature of Apollo Client.
 - Option to search for user accounts.
 - Displaying `README` markdown content for the description section of the modal.
-- Workaround for `BrowserRouter` with static server for pretty URLs
+- Workaround for `BrowserRouter` with static server for pretty URLs.
