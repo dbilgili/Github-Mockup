@@ -71,6 +71,11 @@
   flex-direction: column;
 }
 
+.modalCard .header .userInfo_modal .userInfo_initial .names_modal .userName_modal {
+  color: #3A8BBB;
+  font-weight: bold;
+}
+
 .modalCard .header .userInfo_modal .userInfo_initial .names_modal .repoName_modal {
   white-space: nowrap;
   margin-bottom: 3px;
