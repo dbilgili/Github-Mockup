@@ -1,0 +1,92 @@
+.userPageWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.userCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+}
+
+.userPanelWrapper {
+  width: 300px;
+  height: 0%;
+  min-height: 300px;
+  background-color: #ffffff;
+  margin-right: 28px;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px #e8e8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.userInfo_userpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+.userInfo_userpage li {
+  color: #989898;
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+.userInfo_userpage li a {
+  color: #989898;
+}
+
+.description_userpage {
+  width: 100%;
+  color: #555555;
+  margin: 15px 0;
+  font-size: 0.85rem;
+}
+
+.extraInfo_userpage {
+  width: 100%;
+}
+
+.userAvatar {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.userName_userpage {
+  margin-top: 13px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.name_userpage {
+  color: #555555;
+  margin: 10px 0;
+}
+
+.totalRepos_userpage {
+  color: #bbbbbb;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.SVG {
+  position: relative;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  fill: #586069;
+}
+
+.separator_userpage {
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #dedede;
+}

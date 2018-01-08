@@ -1,0 +1,17 @@
+.noResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  font-size: 1rem;
+  color: #bbbbbb;
+}
+
+.pageNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 240px;
+  font-size: 4rem;
+  color: #dddddd;
+}

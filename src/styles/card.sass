@@ -1,0 +1,161 @@
+a
+  text-decoration: none
+
+.card
+  margin: 0 15px
+
+.cardWrapper
+  overflow: hidden
+  position: relative
+  width: 220px
+  height: 190px
+  margin-bottom: 10px
+  padding: 14px 14px
+  border-radius: 2px
+  background-color: white
+  box-shadow: 0 1px 2px rgb(232, 232, 232)
+  box-sizing: border-box
+
+.info
+  overflow: hidden
+
+.bottom
+  display: flex
+  flex-direction: row
+  flex-shrink: 0
+  margin-bottom: 30px
+
+.avatar
+  height: 18px
+  width: 18px
+  border-radius: 50%
+  margin-left: 12px
+  margin-right: 7px
+
+.userName, .repoName
+  white-space: nowrap
+  color: #3A8BBB
+  overflow: hidden
+  text-overflow: ellipsis
+  font-weight: bold
+  transition: 0.07s all linear
+  text-decoration: none
+
+  &:hover
+    color: #1E6189
+
+  &.noLink:hover
+    color: #3A8BBB
+
+
+.repoName
+  font-size: 1.2rem
+  margin-bottom: 12px
+
+.userName
+  font-size: 0.8rem
+  line-height: 1.25rem
+
+.moreinfo
+  font-size: 0.75rem
+  color: rgb(159, 159, 159)
+  margin-right: 10px
+  line-height: 1.15rem
+
+.circle
+  position: relative
+  top: 2px
+  width: 13px
+  height: 13px
+  border-radius: 50%
+  margin-right: 5px
+
+.star, .watcher, .forked
+  position: relative
+  height: 15px
+  width: 15px
+  fill: #586069
+  margin-right: 5px
+
+.details
+  position: relative
+  display: flex
+  flex-direction: row
+  flex-shrink: 0
+  margin-bottom: 10px
+  overflow-x: hidden
+  width: 260px
+  height: 16px
+
+.gradientHorizontal
+  position: absolute
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255))
+  height: 100%
+  width: 15px
+  right: 68px
+
+.description
+  position: relative
+  margin-bottom: 13px
+  color: #777777
+  height: 102px
+  font-size: 0.75rem
+  line-height: 1.1rem
+  overflow: hidden
+
+
+  &:hover ~ .screen
+    opacity: 1
+
+  &.noDesc
+    color: #cbcbcb
+
+.gradient
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255))
+  height: 18px
+  width: 100%
+  position: absolute
+  bottom: 0
+  left: 0
+
+.tags
+  overflow: hidden
+  height: 110px
+
+  li
+    display: inline-block
+    font-size: 0.76rem
+    background-color: #F1F8FF
+    padding: 6px 10px
+    border-radius: 3px
+    margin: 5px 5px
+    width: auto
+    color: #3A8BBB
+
+
+.hoverZone
+  position: absolute
+  width: 100%
+  height: 55%
+  background-color: rgba(0, 0, 0, 0)
+  top: 25%
+  bottom: 20%
+  left: 0
+  z-index: 1
+
+.screen
+  opacity: 0
+  padding: 0px 10px
+  box-sizing: border-box
+  position: absolute
+  top: 25%
+  bottom: 20%
+  left: 0
+  width: 100%
+  height: 55%
+  background-color: rgba(255, 255, 255, 0.95)
+  transition: all 0s linear
+
+  &:hover
+    transition: all 0.12s linear
+    opacity: 1

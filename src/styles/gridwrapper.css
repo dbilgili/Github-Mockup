@@ -1,0 +1,19 @@
+#gridWrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#searchHeader {
+  position: relative;
+  height: 10px;
+  display: block;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+  color: #656565;
+  font-weight: bold;
+}
