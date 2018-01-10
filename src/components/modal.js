@@ -66,7 +66,7 @@ const ModalContent = (props) => {
             <img alt="Avatar" className="avatar_modal" src={props.avatar}></img>
             <div className="names_modal">
               <div className="repoName_modal"><a target="_blank" href={props.url}>{props.reponame}</a></div>
-              <div className="user_modal">by <Link to={`/user/${props.username}`} onClick={props.goToUserFunction}><div className="userName">{props.username}</div></Link> on <span className="date_modal">{props.createdAt.slice(0, 10)}</span></div>
+              <div className="user_modal">by <Link to={`/user/${props.username}`} onClick={props.goToUserFunction}><div className="userName_modal">{props.username}</div></Link> on <span className="date_modal">{props.createdAt.slice(0, 10)}</span></div>
             </div>
           </div>
           <ul className="repoInfo_modal">
@@ -124,7 +124,7 @@ class Modal extends Component{
   goToUser(e){
     e.stopPropagation()
     this.props.bgStyleToggle()
-    setTimeout(() => this.props.modalToggle(), 100)
+    this.props.modalToggle()
   }
 
   handleEscPress(e){
