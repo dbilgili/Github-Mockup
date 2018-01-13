@@ -40,3 +40,4 @@ __Software Stack:__ ReactJS, Redux, Apollo Client, SASS
 - Option to search for user accounts.
 - Displaying `README` markdown content for the description section of the modal.
 - Workaround for `BrowserRouter` with static server for pretty URLs.
+- Navigation between repository modals with keyboard and on screen arrows.
