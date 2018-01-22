@@ -10,7 +10,7 @@ In order to test it, make sure that you have NodeJS installed on your computer. 
 
 You can build the project for production by simply running the `npm run build` command. Make sure that you have set the __homepage__ correctly in the _package.json_ file.
 
-__Note: You should have a personal access token generated to able to access the GitHub API.__
+__Note: You should have a personal access token generated to be able to access the GitHub API.__
 
 Inside `/src/index.js`, you should replace `YOUR_TOKEN` with your actual token.
 
