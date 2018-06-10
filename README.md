@@ -4,7 +4,7 @@ This is a GitHub Mockup design implemented in React/Redux as an SPA.
 
 As the GraphQL client to communicate with GitHub's API V4, Apollo Client was used.
 
-Visit the [page](https://dbilgili.github.io/githubmockup/#/) for a working demo.
+Visit the [page](https://stoic-hugle-9ddc3f.netlify.com) for a working demo.
 
 In order to test it, make sure that you have NodeJS installed on your computer. Then, just clone the repository and run `npm install` to install required modules and then you can run `npm start` to initialize a local server to test the project.
 
