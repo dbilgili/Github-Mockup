@@ -2,7 +2,6 @@
   "name": "Github-Mockup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dbilgili.github.io/githubmockup",
   "dependencies": {
     "apollo-client-preset": "^1.0.5",
     "apollo-link-context": "^1.0.3",
